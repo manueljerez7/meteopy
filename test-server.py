@@ -8,13 +8,19 @@ import plotly.graph_objs as go
 import os
 import random
 
-#Lee y dibuja los 18 canales. 
-#En realidad, solo primeros 12 canales son radiación, los otros 6 son otras magnitudes.
-
-
 # Archivos de almacenamiento
 DATA_FILE = "datos.txt"
-CONFIG_FILE = "multiplicadores.txt"
+CONFIG_FILE = "config.txt"
+DEVICES_FILE = "devices.txt"
+
+# Cargar nombres de dispositivos desde un fichero
+def load_device_names():
+    if os.path.exists(DEVICES_FILE):
+        with open(DEVICES_FILE, "r") as f:
+            names = [line.strip() for line in f.readlines()]
+        return names[:18] if len(names) >= 18 else names + [f"Canal_{i}" for i in range(len(names), 18)]
+    else:
+        return [f"Canal_{i}" for i in range(18)]
 
 # Cargar multiplicadores desde un fichero de texto
 def load_multiplicadores():
@@ -33,6 +39,7 @@ def save_multiplicadores(multiplicadores):
 
 # Variables compartidas
 multiplicadores = load_multiplicadores()
+dispositivo_nombres = load_device_names()
 
 def read_datalogger():
     while True:
@@ -53,31 +60,31 @@ datalogger_thread.start()
 app = dash.Dash(__name__)
 
 app.layout = html.Div([
-    html.H1("Monitor de Datalogger", style={"textAlign": "center", "color": "#333"}),
+    html.H1("Estación Meteorológica", style={"textAlign": "center", "color": "#2c3e50", "fontFamily": "Arial, sans-serif"}),
     
     html.Div([
-        dcc.Graph(id="live-graph", style={"height": "400px", "width": "100%", "backgroundColor": "#f8f9fa", "padding": "10px", "borderRadius": "10px"}),
-    ], style={"display": "flex", "justifyContent": "center"}),
+        dcc.Graph(id="live-graph", style={"height": "700px", "width": "100%", "borderRadius": "10px", "boxShadow": "0 4px 8px rgba(0, 0, 0, 0.1)"}),
+    ], style={"display": "flex", "justifyContent": "center", "padding": "20px"}),
     
-    dcc.Interval(id="interval-update", interval=5000, n_intervals=0),  # Actualización cada 5 segundos
+    dcc.Interval(id="interval-update", interval=5000, n_intervals=0),  
     
     html.Div([
-        html.Label("Seleccionar canales a mostrar:"),
+        html.Label("Seleccionar dispositivos a mostrar:", style={"fontWeight": "bold", "color": "#34495e"}),
         dcc.Checklist(
             id="channel-selector",
-            options=[{"label": f"Canal {i}", "value": f"Canal_{i}"} for i in range(18)],
-            value=[f"Canal_{i}" for i in range(18)],  # Mostrar todos por defecto
+            options=[{"label": dispositivo_nombres[i], "value": dispositivo_nombres[i]} for i in range(12)],
+            value=[dispositivo_nombres[i] for i in range(12)],
             inline=True,
-            style={"marginBottom": "20px", "display": "grid", "gridTemplateColumns": "repeat(3, 1fr)", "gap": "10px"}
+            style={"display": "grid", "gridTemplateColumns": "repeat(3, 1fr)", "gap": "10px", "padding": "10px"}
         ),
-    ], style={"margin": "20px"}),
+    ], style={"margin": "20px", "padding": "15px", "backgroundColor": "#ecf0f1", "borderRadius": "10px"}),
     
     html.Div([
         html.Div([
-            html.Label(f"Canal {i}", style={"fontWeight": "bold", "width": "100px"}),
-            dcc.Input(id=f"multiplicador-{i}", type="number", value=multiplicadores[i], step=0.1, style={"width": "80px", "marginRight": "10px"}),
-            html.Span(id=f"ultimo-valor-{i}", style={"fontSize": "16px", "color": "blue", "flexGrow": "1"})
-        ], style={"display": "flex", "alignItems": "center", "marginBottom": "5px", "backgroundColor": "#eef", "padding": "5px", "borderRadius": "5px"})
+            html.Label(dispositivo_nombres[i], style={"fontWeight": "bold", "color": "#2c3e50", "marginRight": "10px"}),
+            dcc.Input(id=f"multiplicador-{i}", type="number", value=multiplicadores[i], step=0.1, style={"width": "80px", "marginRight": "10px", "borderRadius": "5px", "border": "1px solid #bdc3c7"}),
+            html.Span(id=f"ultimo-valor-{i}", style={"fontSize": "14px", "color": "#2980b9"})
+        ], style={"display": "flex", "alignItems": "center", "marginBottom": "8px", "backgroundColor": "#f8f9fa", "padding": "8px", "borderRadius": "5px"})
         for i in range(18)
     ], style={"display": "grid", "gridTemplateColumns": "repeat(3, 1fr)", "gap": "10px", "padding": "20px"})
 ])
@@ -90,18 +97,11 @@ def update_graph(_, selected_channels):
     if not os.path.exists(DATA_FILE):
         return go.Figure()
     
-    df = pd.read_csv(DATA_FILE, sep="\t", header=None, names=["Tiempo"] + [f"Canal_{i}" for i in range(18)])
+    df = pd.read_csv(DATA_FILE, sep="\t", header=None, names=["Tiempo"] + dispositivo_nombres)
     
     fig = go.Figure()
     for col in selected_channels:
         fig.add_trace(go.Scatter(x=df["Tiempo"], y=df[col], mode="lines", name=col))
-    
-    fig.update_layout(
-        plot_bgcolor="#f8f9fa", 
-        paper_bgcolor="#ffffff",
-        margin=dict(l=20, r=20, t=20, b=20),
-        font=dict(color="#333")
-    )
     
     return fig
 
@@ -116,9 +116,8 @@ def update_multipliers(*values):
     multiplicadores = list(values[:18])
     save_multiplicadores(multiplicadores)
     
-    # Leer el último valor de cada canal
     if os.path.exists(DATA_FILE):
-        df = pd.read_csv(DATA_FILE, sep="\t", header=None, names=["Tiempo"] + [f"Canal_{i}" for i in range(18)])
+        df = pd.read_csv(DATA_FILE, sep="\t", header=None, names=["Tiempo"] + dispositivo_nombres)
         ultimo_valor = df.iloc[-1, 1:].tolist() if not df.empty else ["N/A"] * 18
     else:
         ultimo_valor = ["N/A"] * 18
