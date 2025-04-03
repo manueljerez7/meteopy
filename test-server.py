@@ -7,9 +7,11 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import os
 import random
+from datetime import datetime
 
 # Archivos de almacenamiento
-DATA_FILE = "datos.txt"
+numero_dia = datetime.today().strftime('%j')
+DATA_FILE = f"meteo_{numero_dia}.txt"
 CONFIG_FILE = "config.txt"
 DEVICES_FILE = "devices.txt"
 
@@ -44,6 +46,7 @@ dispositivo_nombres = load_device_names()
 def read_datalogger():
     while True:
         valores = [random.uniform(-10, 10) for _ in range(18)]  # Simulación de datos
+        # valores deberian ser los datos leidos del datalogger
         valores_multiplicados = [valores[i] * multiplicadores[i] for i in range(18)]
         timestamp = time.strftime("%H:%M:%S")
         
@@ -66,7 +69,7 @@ app.layout = html.Div([
         dcc.Graph(id="live-graph", style={"height": "700px", "width": "100%", "borderRadius": "10px", "boxShadow": "0 4px 8px rgba(0, 0, 0, 0.1)"}),
     ], style={"display": "flex", "justifyContent": "center", "padding": "20px"}),
     
-    dcc.Interval(id="interval-update", interval=5000, n_intervals=0),  
+    dcc.Interval(id="interval-update", interval=2000, n_intervals=0),  
     
     html.Div([
         html.Label("Seleccionar dispositivos a mostrar:", style={"fontWeight": "bold", "color": "#34495e"}),
@@ -111,6 +114,7 @@ def update_graph(_, selected_channels):
     [Input(f"multiplicador-{i}", "value") for i in range(18)] +
     [Input("interval-update", "n_intervals")]
 )
+
 def update_multipliers(*values):
     global multiplicadores
     multiplicadores = list(values[:18])

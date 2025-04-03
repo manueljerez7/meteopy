@@ -75,8 +75,8 @@ def config_device(meter_handler):
     config_sequence = [
         "*CLS",
         "*RST",
-        "CONF:VOLT:DC (@101:116)",
-        "ROUTE:SCAN (@101:116)",
+        "CONF:VOLT:DC (@101:118)",
+        "ROUTE:SCAN (@101:118)",
         "ROUTE:SCAN:SIZE?",
         "FORMAT:READING:CHAN ON",
         "FORMAT:READING:TIME ON",
@@ -167,3 +167,5 @@ def daq_control():
     close_session(visa_handler=visa_handler, inst_handler=inst_handler)
 
     logging.info("Day Completed!")
+
+daq_control()
