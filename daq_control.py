@@ -168,4 +168,5 @@ def daq_control():
 
     logging.info("Day Completed!")
 
-daq_control()
+if __name__ == "__main__":
+    daq_control()

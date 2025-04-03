@@ -1,0 +1,73 @@
+03-Apr-25 17:17:43 - INFO - Openning measurements session
+03-Apr-25 17:17:43 - INFO - VISA session open
+03-Apr-25 17:17:43 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+03-Apr-25 17:17:43 - ERROR - Failed to open VX11 connection to 169.254.9.72 on port None
+Traceback (most recent call last):
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 491, in after_parsing
+    self.interface = Vxi11CoreClient(host_address, port, self.open_timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 395, in __init__
+    rpc.TCPClient.__init__(self, host, prog, vers, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 823, in __init__
+    pmap = TCPPortMapperClient(host, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 803, in __init__
+    RawTCPClient.__init__(self, host, PMAP_PROG, PMAP_VERS, PMAP_PORT, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 454, in __init__
+    self.connect(1e-3 * open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 488, in connect
+    raise RPCError("can't connect to server")
+pyvisa_py.protocols.rpc.RPCError: can't connect to server
+03-Apr-25 17:17:43 - ERROR - Exception occurred during session openning
+Traceback (most recent call last):
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 491, in after_parsing
+    self.interface = Vxi11CoreClient(host_address, port, self.open_timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 395, in __init__
+    rpc.TCPClient.__init__(self, host, prog, vers, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 823, in __init__
+    pmap = TCPPortMapperClient(host, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 803, in __init__
+    RawTCPClient.__init__(self, host, PMAP_PROG, PMAP_VERS, PMAP_PORT, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 454, in __init__
+    self.connect(1e-3 * open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 488, in connect
+    raise RPCError("can't connect to server")
+pyvisa_py.protocols.rpc.RPCError: can't connect to server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\highlevel.py", line 196, in open
+    sess = cls(session, resource_name, parsed, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 86, in __new__
+    return newcls(resource_manager_session, resource_name, parsed, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\sessions.py", line 329, in __init__
+    self.after_parsing()
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 496, in after_parsing
+    raise OpenError()
+pyvisa_py.sessions.OpenError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\daq_control.py", line 33, in open_session
+    inst_handler = visa_handler.open_resource(address)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\highlevel.py", line 3293, in open_resource
+    res.open(access_mode, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\resources\resource.py", line 282, in open
+    self.session, status = self._resource_manager.open_bare_resource(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\highlevel.py", line 3218, in open_bare_resource
+    return self.visalib.open(self.session, resource_name, access_mode, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\highlevel.py", line 198, in open
+    return VISASession(0), self.handle_return_value(None, e.error_code)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\highlevel.py", line 252, in handle_return_value
+    raise errors.VisaIOError(rv)
+pyvisa.errors.VisaIOError: VI_ERROR_RSRC_NFOUND (-1073807343): Insufficient location information or the requested device or resource is not present in the system.

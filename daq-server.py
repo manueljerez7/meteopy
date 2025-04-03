@@ -8,6 +8,7 @@ import plotly.graph_objs as go
 import os
 import random
 from datetime import datetime
+import daq_control
 
 # Versión que utiliza dash en 2º plano y el datalogger en 1º plano
 
@@ -78,7 +79,7 @@ def run_dash_server():
         html.Div([
             html.Div([
                 html.Label(dispositivo_nombres[i], style={"fontWeight": "bold", "color": "#2c3e50", "marginRight": "10px"}),
-                dcc.Input(id=f"multiplicador-{i}", type="number", value=multiplicadores[i], step=0.1, style={"width": "80px", "marginRight": "10px", "borderRadius": "5px", "border": "1px solid #bdc3c7"}),
+                dcc.Input(id=f"multiplicador-{i}", type="number", value=multiplicadores[i], step=0.5, style={"width": "80px", "marginRight": "10px", "borderRadius": "5px", "border": "1px solid #bdc3c7"}),
                 html.Span(id=f"ultimo-valor-{i}", style={"fontSize": "14px", "color": "#2980b9"})
             ], style={"display": "flex", "alignItems": "center", "marginBottom": "8px", "backgroundColor": "#f8f9fa", "padding": "8px", "borderRadius": "5px"})
             for i in range(18)
@@ -107,11 +108,10 @@ def run_dash_server():
         [Input(f"multiplicador-{i}", "value") for i in range(18)] +
         [Input("interval-update", "n_intervals")]
     )
-
     def update_multipliers(*values):
         global multiplicadores
         multiplicadores = list(values[:18])
-        save_multiplicadores(multiplicadores)
+        save_multiplicadores(list(values[:18]))
         
         if os.path.exists(DATA_FILE):
             df = pd.read_csv(DATA_FILE, sep="\t", header=None, names=["Tiempo"] + dispositivo_nombres)
@@ -127,4 +127,6 @@ dash_thread = threading.Thread(target=run_dash_server, daemon=True)
 dash_thread.start()
 
 if __name__ == "__main__":
-    read_datalogger()
+    
+    #Si esto funciona tal y como está, solo quedarían los multiplicadores en daq_control
+    daq_control.daq_control()
