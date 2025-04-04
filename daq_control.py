@@ -4,10 +4,23 @@ import time  # for sleep
 import logging
 import time
 from datetime import datetime
+import os
 # INT_ID = "USB0::4883::32802::M00450923::0::INSTR"
 
 DELAY = 0.1
+numero_dia = datetime.today().strftime('%j')
+DATA_FILE = f"meteo_{numero_dia}.txt"
+CONFIG_FILE = "config.txt"
+DEVICES_FILE = "devices.txt"
 
+
+def load_multiplicadores():
+    if os.path.exists(CONFIG_FILE):
+        with open(CONFIG_FILE, "r") as f:
+            valores = f.readlines()
+        return [float(v.strip()) for v in valores]
+    else:
+        return [1.0] * 18
 
 def open_session():
     logging.basicConfig(
@@ -149,6 +162,9 @@ def daq_control():
                 inst_handler.write("DATA:POINTS?")
                 points=int(inst_handler.read())
 
+        multiplicadores = load_multiplicadores()
+        # Aplicar multiplicadores
+        valores = [valores[i] * multiplicadores[i] for i in range(len(valores))]
         valores = [round(num) for num in valores]
         valores = [str(num) for num in valores]
 
@@ -159,7 +175,6 @@ def daq_control():
         with open(data_filename, "a") as txtfile:
             txtfile.write(linea)
 
-        print(linea.strip())  # Mostrar en consola
 
         if datetime.today().strftime('%j') != numero_dia:
             same_day_condition = False
