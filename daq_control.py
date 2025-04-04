@@ -9,7 +9,8 @@ import os
 
 DELAY = 0.1
 numero_dia = datetime.today().strftime('%j')
-DATA_FILE = f"meteo_{numero_dia}.txt"
+año = datetime.today().strftime('%Y')
+DATA_FILE = f"meteo_{año}_{numero_dia}.txt"
 CONFIG_FILE = "config.txt"
 DEVICES_FILE = "devices.txt"
 
@@ -20,7 +21,7 @@ def load_multiplicadores():
             valores = f.readlines()
         return [float(v.strip()) for v in valores]
     else:
-        return [1.0] * 18
+        return [1.0] * 17
 
 def open_session():
     logging.basicConfig(
@@ -88,8 +89,8 @@ def config_device(meter_handler):
     config_sequence = [
         "*CLS",
         "*RST",
-        "CONF:VOLT:DC (@101:118)",
-        "ROUTE:SCAN (@101:118)",
+        "CONF:VOLT:DC (@101:117)",
+        "ROUTE:SCAN (@101:117)",
         "ROUTE:SCAN:SIZE?",
         "FORMAT:READING:CHAN ON",
         "FORMAT:READING:TIME ON",
@@ -165,7 +166,8 @@ def daq_control():
         multiplicadores = load_multiplicadores()
         # Aplicar multiplicadores
         valores = [valores[i] * multiplicadores[i] for i in range(len(valores))]
-        valores = [round(num) for num in valores]
+        #Redondear al 3er decimal
+        valores = [round(num,3) for num in valores]
         valores = [str(num) for num in valores]
 
         # Crear la línea de salida con tabulaciones

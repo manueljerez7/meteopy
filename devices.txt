@@ -15,4 +15,3 @@ vv
 dv
 pres_atm
 Hr
-Hora_solar
