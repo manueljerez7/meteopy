@@ -18,3 +18,23 @@
 04-Apr-25 10:24:07 - INFO - Configuration complete
 04-Apr-25 10:24:07 - INFO - saving resutls in meteo_094.txt
 04-Apr-25 10:24:07 - INFO - Measuring....
+07-Apr-25 13:27:30 - INFO - Dash is running on http://127.0.0.1:8050/
+
+07-Apr-25 13:27:30 - INFO - Openning measurements session
+07-Apr-25 13:27:30 - INFO - VISA session open
+07-Apr-25 13:27:30 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+07-Apr-25 13:27:30 - INFO - Session and meter open
+07-Apr-25 13:27:30 - INFO - Configuring meter
+07-Apr-25 13:27:31 - INFO - Configuration complete
+07-Apr-25 13:27:31 - INFO - saving resutls in meteo_097.txt
+07-Apr-25 13:27:31 - INFO - Measuring....
+07-Apr-25 13:28:54 - INFO - Dash is running on http://127.0.0.1:8050/
+
+07-Apr-25 13:28:54 - INFO - Openning measurements session
+07-Apr-25 13:28:54 - INFO - VISA session open
+07-Apr-25 13:28:54 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+07-Apr-25 13:28:55 - INFO - Session and meter open
+07-Apr-25 13:28:55 - INFO - Configuring meter
+07-Apr-25 13:28:56 - INFO - Configuration complete
+07-Apr-25 13:28:56 - INFO - saving resutls in meteo_2025_097.txt
+07-Apr-25 13:28:56 - INFO - Measuring....

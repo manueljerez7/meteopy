@@ -17,17 +17,21 @@ txt_filename = f"meteo_{numero_dia}.txt"
 instrumento.write("*CLS")     #clear 
 instrumento.write("*RST")     #reset 
 instrumento.timeout= 5000
-scanlist = "(@101:116)"
-instrumento.write("CONF:VOLT:DC (@101:116)")  #Configurar tipo de lectura
+scanlist = "(@118,116,117,101:105,111,119,112,113,108:110,107,106)"
+instrumento.write("CONF:VOLT:DC (@118,116,117,101:105,111,119,112,113,108:110,107,106)")  #Configurar tipo de lectura
+
+#scanlist = "(@101:113,116:119)"
+#instrumento.write("CONF:VOLT:DC (@101:116)")  #Configurar tipo de lectura
 #setup scan list
 instrumento.write("ROUTE:SCAN " + scanlist) #Cosas a escanear
 instrumento.write("ROUTE:SCAN:SIZE?") 
 numberChannels = int(instrumento.read())+1
+print("Número de canales: ", str(numberChannels))
 #reading format
 instrumento.write("FORMAT:READING:CHAN ON")
 instrumento.write("FORMAT:READING:TIME ON")  
 
-numberScans = 1 #Esto lo retocamos ahora
+numberScans = 5 #Esto lo retocamos ahora
 scanIntervals = 5 #5 segundos entre escaneos
 
 #setup when scanning starts and interval rate

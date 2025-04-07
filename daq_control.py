@@ -89,8 +89,8 @@ def config_device(meter_handler):
     config_sequence = [
         "*CLS",
         "*RST",
-        "CONF:VOLT:DC (@101:117)",
-        "ROUTE:SCAN (@101:117)",
+        "CONF:VOLT:DC (@118,116,117,101:105,111,119,112,113,108:110,107,106)",
+        "ROUTE:SCAN (@118,116,117,101:105,111,119,112,113,108:110,107,106)",
         "ROUTE:SCAN:SIZE?",
         "FORMAT:READING:CHAN ON",
         "FORMAT:READING:TIME ON",
@@ -129,15 +129,10 @@ def daq_control():
     visa_handler, inst_handler = open_session()
     numberChannels= config_device(meter_handler=inst_handler)
 
-    # Nombre del archivo de salida
-    numero_dia = datetime.today().strftime('%j')
-    data_filename = f"meteo_{numero_dia}.txt"
-
-
     # same datafile if True
     same_day_condition = True
-
-    logging.info('saving resutls in {}'.format(data_filename))
+    numero_dia = datetime.today().strftime('%j')
+    logging.info('saving resutls in {}'.format(DATA_FILE))
     logging.info('Measuring....')
 
     #Leemos el dia de hoy (para que no de error)
@@ -174,7 +169,7 @@ def daq_control():
         linea = timestamp + "\t" + "\t".join(valores) + "\n"
 
         # Guardar en el archivo
-        with open(data_filename, "a") as txtfile:
+        with open(DATA_FILE, "a") as txtfile:
             txtfile.write(linea)
 
 

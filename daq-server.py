@@ -135,5 +135,6 @@ dash_thread.start()
 
 if __name__ == "__main__":
     
-    read_datalogger()
-    #daq_control.daq_control()
+    #read_datalogger()
+    
+    daq_control.daq_control()
