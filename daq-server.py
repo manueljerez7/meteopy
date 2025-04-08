@@ -50,7 +50,7 @@ units_multiplicadores = [txt_multiplicadores] * 12 + txt_multiplicadores_list
 
 def read_datalogger():
     while True:
-        valores = [random.uniform(0, 10) for _ in range(17)]
+        valores = [random.uniform(0, 1) for _ in range(17)]
         valores_multiplicados = [valores[i] * multiplicadores[i] for i in range(17)]
         timestamp = time.strftime("%H:%M:%S")
         
@@ -85,13 +85,26 @@ def run_dash_server():
         html.Div([
             html.Div([
                 html.Label(dispositivo_nombres[i], style={"fontWeight": "bold", "color": "#2c3e50", "marginRight": "10px"}),
-                dcc.Input(id=f"multiplicador-{i}", type="number", value=multiplicadores[i], step=0.5, style={"width": "80px", "marginRight": "10px", "borderRadius": "5px", "border": "1px solid #bdc3c7"}),
+                dcc.Input(id=f"multiplicador-{i}", type="number", value=multiplicadores[i], step=0.001, style={"width": "100px", "marginRight": "10px", "borderRadius": "5px", "border": "1px solid #bdc3c7"}),
                 html.Label(units_multiplicadores[i], style={"color": "red", "marginRight": "20px"}),
                 html.Span(id=f"ultimo-valor-{i}", style={"fontWeight": "bold","fontSize": "15px", "color": "#2980b9"})
             ], style={"display": "flex", "alignItems": "center", "marginBottom": "8px", "backgroundColor": "#f8f9fa", "padding": "8px", "borderRadius": "5px"})
-            for i in range(17)
-        ], style={"display": "grid", "gridTemplateColumns": "repeat(3, 1fr)", "gap": "10px", "padding": "20px"})
-    ])
+            for i in range(12)
+        ], style={"display": "grid", "gridTemplateColumns": "repeat(3, 1fr)", "gap": "10px", "padding": "20px"}),
+
+        html.Div([
+        html.H2("Meteorología", style={"textAlign": "center", "color": "black", "fontFamily": "Arial, sans-serif"}),
+        html.Div([
+            html.Div([
+                html.Label(dispositivo_nombres[i], style={"fontWeight": "bold", "color": "#2c3e50", "marginRight": "10px"}),
+                dcc.Input(id=f"multiplicador-{i}", type="number", value=multiplicadores[i], step=0.5, style={"width": "80px", "marginRight": "10px", "borderRadius": "5px", "border": "1px solid #bdc3c7", "display":"none"}),
+                html.Label(units_multiplicadores[i], style={"color": "red", "marginRight": "20px"}),
+                html.Span(id=f"ultimo-valor-{i}", style={"fontWeight": "bold","fontSize": "15px", "color": "#2980b9"})
+            ], style={"display": "flex", "alignItems": "center", "marginBottom": "8px", "backgroundColor": "#f8f9fa", "padding": "8px", "borderRadius": "5px"})
+            for i in range(12, 17)
+        ], style={"display": "grid", "gridTemplateColumns": "repeat(3, 1fr)", "gap": "10px", "padding": "20px", "backgroundColor": "lightblue",}),
+], style={"margin": "20px", "padding": "15px", "backgroundColor": "lightblue", "borderRadius": "10px"}), 
+])
 
     @app.callback(
         Output("live-graph", "figure"),
@@ -135,6 +148,6 @@ dash_thread.start()
 
 if __name__ == "__main__":
     
-    #read_datalogger()
+    read_datalogger()
     
-    daq_control.daq_control()
+    #daq_control.daq_control()

@@ -38,3 +38,193 @@
 07-Apr-25 13:28:56 - INFO - Configuration complete
 07-Apr-25 13:28:56 - INFO - saving resutls in meteo_2025_097.txt
 07-Apr-25 13:28:56 - INFO - Measuring....
+07-Apr-25 13:57:02 - INFO - Dash is running on http://127.0.0.1:8050/
+
+07-Apr-25 13:57:02 - INFO - Openning measurements session
+07-Apr-25 13:57:02 - INFO - VISA session open
+07-Apr-25 13:57:02 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+07-Apr-25 13:57:02 - INFO - Session and meter open
+07-Apr-25 13:57:02 - INFO - Configuring meter
+07-Apr-25 13:57:04 - INFO - Configuration complete
+07-Apr-25 13:57:04 - INFO - saving resutls in meteo_2025_097.txt
+07-Apr-25 13:57:04 - INFO - Measuring....
+08-Apr-25 11:26:22 - INFO - Dash is running on http://127.0.0.1:8050/
+
+08-Apr-25 11:26:23 - INFO - Openning measurements session
+08-Apr-25 11:26:23 - INFO - VISA session open
+08-Apr-25 11:26:23 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+08-Apr-25 11:26:24 - INFO - Session and meter open
+08-Apr-25 11:26:24 - INFO - Configuring meter
+08-Apr-25 11:26:26 - INFO - Configuration complete
+08-Apr-25 11:26:26 - INFO - saving resutls in meteo_2025_098.txt
+08-Apr-25 11:26:26 - INFO - Measuring....
+08-Apr-25 11:27:43 - INFO - Dash is running on http://127.0.0.1:8050/
+
+08-Apr-25 11:27:43 - INFO - Openning measurements session
+08-Apr-25 11:27:43 - INFO - VISA session open
+08-Apr-25 11:27:43 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+08-Apr-25 11:27:44 - INFO - Session and meter open
+08-Apr-25 11:27:44 - INFO - Configuring meter
+08-Apr-25 11:27:45 - INFO - Configuration complete
+08-Apr-25 11:27:45 - INFO - saving resutls in meteo_2025_098.txt
+08-Apr-25 11:27:45 - INFO - Measuring....
+08-Apr-25 11:29:39 - INFO - Dash is running on http://127.0.0.1:8050/
+
+08-Apr-25 11:29:39 - INFO - Openning measurements session
+08-Apr-25 11:29:39 - INFO - VISA session open
+08-Apr-25 11:29:39 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+08-Apr-25 11:29:40 - ERROR - Failed to open VX11 connection to 169.254.9.72 on port None
+Traceback (most recent call last):
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 491, in after_parsing
+    self.interface = Vxi11CoreClient(host_address, port, self.open_timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 395, in __init__
+    rpc.TCPClient.__init__(self, host, prog, vers, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 823, in __init__
+    pmap = TCPPortMapperClient(host, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 803, in __init__
+    RawTCPClient.__init__(self, host, PMAP_PROG, PMAP_VERS, PMAP_PORT, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 454, in __init__
+    self.connect(1e-3 * open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 488, in connect
+    raise RPCError("can't connect to server")
+pyvisa_py.protocols.rpc.RPCError: can't connect to server
+08-Apr-25 11:29:40 - ERROR - Exception occurred during session openning
+Traceback (most recent call last):
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 491, in after_parsing
+    self.interface = Vxi11CoreClient(host_address, port, self.open_timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 395, in __init__
+    rpc.TCPClient.__init__(self, host, prog, vers, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 823, in __init__
+    pmap = TCPPortMapperClient(host, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 803, in __init__
+    RawTCPClient.__init__(self, host, PMAP_PROG, PMAP_VERS, PMAP_PORT, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 454, in __init__
+    self.connect(1e-3 * open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 488, in connect
+    raise RPCError("can't connect to server")
+pyvisa_py.protocols.rpc.RPCError: can't connect to server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\highlevel.py", line 196, in open
+    sess = cls(session, resource_name, parsed, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 86, in __new__
+    return newcls(resource_manager_session, resource_name, parsed, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\sessions.py", line 329, in __init__
+    self.after_parsing()
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 496, in after_parsing
+    raise OpenError()
+pyvisa_py.sessions.OpenError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\daq_control.py", line 47, in open_session
+    inst_handler = visa_handler.open_resource(address)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\highlevel.py", line 3293, in open_resource
+    res.open(access_mode, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\resources\resource.py", line 282, in open
+    self.session, status = self._resource_manager.open_bare_resource(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\highlevel.py", line 3218, in open_bare_resource
+    return self.visalib.open(self.session, resource_name, access_mode, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\highlevel.py", line 198, in open
+    return VISASession(0), self.handle_return_value(None, e.error_code)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\highlevel.py", line 252, in handle_return_value
+    raise errors.VisaIOError(rv)
+pyvisa.errors.VisaIOError: VI_ERROR_RSRC_NFOUND (-1073807343): Insufficient location information or the requested device or resource is not present in the system.
+08-Apr-25 11:29:50 - INFO - Dash is running on http://127.0.0.1:8050/
+
+08-Apr-25 11:29:50 - INFO - Openning measurements session
+08-Apr-25 11:29:50 - INFO - VISA session open
+08-Apr-25 11:29:50 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+08-Apr-25 11:29:50 - ERROR - Failed to open VX11 connection to 169.254.9.72 on port None
+Traceback (most recent call last):
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 491, in after_parsing
+    self.interface = Vxi11CoreClient(host_address, port, self.open_timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 395, in __init__
+    rpc.TCPClient.__init__(self, host, prog, vers, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 823, in __init__
+    pmap = TCPPortMapperClient(host, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 803, in __init__
+    RawTCPClient.__init__(self, host, PMAP_PROG, PMAP_VERS, PMAP_PORT, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 454, in __init__
+    self.connect(1e-3 * open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 488, in connect
+    raise RPCError("can't connect to server")
+pyvisa_py.protocols.rpc.RPCError: can't connect to server
+08-Apr-25 11:29:50 - ERROR - Exception occurred during session openning
+Traceback (most recent call last):
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 491, in after_parsing
+    self.interface = Vxi11CoreClient(host_address, port, self.open_timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 395, in __init__
+    rpc.TCPClient.__init__(self, host, prog, vers, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 823, in __init__
+    pmap = TCPPortMapperClient(host, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 803, in __init__
+    RawTCPClient.__init__(self, host, PMAP_PROG, PMAP_VERS, PMAP_PORT, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 454, in __init__
+    self.connect(1e-3 * open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\protocols\rpc.py", line 488, in connect
+    raise RPCError("can't connect to server")
+pyvisa_py.protocols.rpc.RPCError: can't connect to server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\highlevel.py", line 196, in open
+    sess = cls(session, resource_name, parsed, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 86, in __new__
+    return newcls(resource_manager_session, resource_name, parsed, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\sessions.py", line 329, in __init__
+    self.after_parsing()
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\tcpip.py", line 496, in after_parsing
+    raise OpenError()
+pyvisa_py.sessions.OpenError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\daq_control.py", line 47, in open_session
+    inst_handler = visa_handler.open_resource(address)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\highlevel.py", line 3293, in open_resource
+    res.open(access_mode, open_timeout)
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\resources\resource.py", line 282, in open
+    self.session, status = self._resource_manager.open_bare_resource(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\highlevel.py", line 3218, in open_bare_resource
+    return self.visalib.open(self.session, resource_name, access_mode, open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa_py\highlevel.py", line 198, in open
+    return VISASession(0), self.handle_return_value(None, e.error_code)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manue\OneDrive\Documentos\CATION\20250304-LabView\meteopy\.venv\Lib\site-packages\pyvisa\highlevel.py", line 252, in handle_return_value
+    raise errors.VisaIOError(rv)
+pyvisa.errors.VisaIOError: VI_ERROR_RSRC_NFOUND (-1073807343): Insufficient location information or the requested device or resource is not present in the system.
+08-Apr-25 11:33:19 - INFO - Dash is running on http://127.0.0.1:8050/
+
+08-Apr-25 11:33:19 - INFO - Openning measurements session
+08-Apr-25 11:33:19 - INFO - VISA session open
+08-Apr-25 11:33:19 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+08-Apr-25 11:33:19 - INFO - Session and meter open
+08-Apr-25 11:33:19 - INFO - Configuring meter
+08-Apr-25 11:33:20 - INFO - Configuration complete
+08-Apr-25 11:33:20 - INFO - saving resutls in meteo_2025_098.txt
+08-Apr-25 11:33:20 - INFO - Measuring....
