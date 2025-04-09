@@ -161,6 +161,7 @@ def daq_control():
         multiplicadores = load_multiplicadores()
         # Aplicar multiplicadores
         valores = [valores[i] * multiplicadores[i] for i in range(len(valores))]
+        valores[12] = valores[12] - 40 # Ajuste de temperatura
         #Redondear al 3er decimal
         valores = [round(num,3) for num in valores]
         valores = [str(num) for num in valores]

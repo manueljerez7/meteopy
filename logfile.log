@@ -228,3 +228,13 @@ pyvisa.errors.VisaIOError: VI_ERROR_RSRC_NFOUND (-1073807343): Insufficient loca
 08-Apr-25 11:33:20 - INFO - Configuration complete
 08-Apr-25 11:33:20 - INFO - saving resutls in meteo_2025_098.txt
 08-Apr-25 11:33:20 - INFO - Measuring....
+09-Apr-25 10:40:57 - INFO - Dash is running on http://127.0.0.1:8050/
+
+09-Apr-25 10:40:58 - INFO - Openning measurements session
+09-Apr-25 10:40:58 - INFO - VISA session open
+09-Apr-25 10:40:58 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+09-Apr-25 10:40:58 - INFO - Session and meter open
+09-Apr-25 10:40:58 - INFO - Configuring meter
+09-Apr-25 10:41:00 - INFO - Configuration complete
+09-Apr-25 10:41:00 - INFO - saving resutls in meteo_2025_099.txt
+09-Apr-25 10:41:00 - INFO - Measuring....
