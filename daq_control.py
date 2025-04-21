@@ -168,7 +168,9 @@ def daq_control():
 
         # Crear la línea de salida con tabulaciones
         linea = timestamp + "\t" + "\t".join(valores) + "\n"
-
+        # Mostrar en consola y log
+        logging.info("Measured: " + timestamp)
+        print(linea)
         # Guardar en el archivo
         with open(DATA_FILE, "a") as txtfile:
             txtfile.write(linea)

@@ -51,7 +51,10 @@ txt_units = ["W/m^2"] * 12 + ["ºC", "m/s", "º", "bar", "%"]
 units_multiplicadores = [txt_multiplicadores] * 12 + txt_multiplicadores_list
 
 def read_datalogger():
-    while True:
+    same_day_condition = True
+    numero_dia = datetime.today().strftime('%j')
+
+    while same_day_condition:
         valores = [random.uniform(0, 1) for _ in range(17)]
         valores_multiplicados = [valores[i] * multiplicadores[i] for i in range(17)]
         valores_multiplicados = [round(val, 3) for val in valores_multiplicados]
@@ -60,7 +63,11 @@ def read_datalogger():
         with open(DATA_FILE, "a") as f:
             f.write(timestamp + "\t" + "\t".join(map(str, valores_multiplicados)) + "\n")
         
+    
         time.sleep(5)
+        
+        if datetime.today().strftime('%j') != numero_dia:
+            same_day_condition = False
 
 def run_dash_server():
     app = dash.Dash(__name__)
