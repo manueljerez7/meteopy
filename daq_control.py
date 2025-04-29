@@ -159,9 +159,13 @@ def daq_control():
                 points=int(inst_handler.read())
 
         multiplicadores = load_multiplicadores()
+        orden_indices = [116,114,115,101,102,103,104,105,111,117,112,113,108,109,110,107,106]
+        orden_python = [i - 101 for i in orden_indices]
+        # Reordenar los valores según el orden especificado
+        valores = [valores[i] for i in orden_python]
         # Aplicar multiplicadores
         valores = [valores[i] * multiplicadores[i] for i in range(len(valores))]
-        valores[12] = valores[12] - 40 # Ajuste de temperatura
+        valores[12] = valores[12] - 50 # Ajuste de temperatura
         #Redondear al 3er decimal
         valores = [round(num,3) for num in valores]
         valores = [str(num) for num in valores]

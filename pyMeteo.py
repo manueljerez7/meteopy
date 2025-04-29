@@ -46,7 +46,7 @@ dispositivo_nombres = load_device_names()
 txt_multiplicadores = "(W/m^2)/V"
 txt_multiplicadores_list = ["(ºC)/V", "(m/s)/V", "(º)/V", "(bar)/V", "(%)/V"]
 
-txt_units = ["W/m^2"] * 12 + ["ºC", "m/s", "º", "bar", "%"]
+txt_units = ["W/m^2"] * 12 + ["ºC", "%", "bar", "m/s", "º"]
 
 units_multiplicadores = [txt_multiplicadores] * 12 + txt_multiplicadores_list
 
@@ -271,6 +271,6 @@ dash_thread.start()
 
 if __name__ == "__main__":
     
-    #read_datalogger()
+    read_datalogger()
     
-    daq_control.daq_control()
+    #daq_control.daq_control()

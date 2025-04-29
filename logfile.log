@@ -1,0 +1,743 @@
+22-Apr-25 10:37:37 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 10:37:38 - INFO - Openning measurements session
+22-Apr-25 10:37:38 - INFO - VISA session open
+22-Apr-25 10:37:38 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 10:37:38 - INFO - Session and meter open
+22-Apr-25 10:37:38 - INFO - Configuring meter
+22-Apr-25 10:37:39 - INFO - Configuration complete
+22-Apr-25 10:37:39 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 10:37:39 - INFO - Measuring....
+22-Apr-25 10:37:44 - INFO - Measured: 10:37:40
+22-Apr-25 10:37:49 - INFO - Measured: 10:37:44
+22-Apr-25 10:37:54 - INFO - Measured: 10:37:49
+22-Apr-25 10:37:59 - INFO - Measured: 10:37:55
+22-Apr-25 10:38:04 - INFO - Measured: 10:37:59
+22-Apr-25 10:38:09 - INFO - Measured: 10:38:05
+22-Apr-25 10:38:14 - INFO - Measured: 10:38:09
+22-Apr-25 10:38:19 - INFO - Measured: 10:38:14
+22-Apr-25 10:38:24 - INFO - Measured: 10:38:19
+22-Apr-25 10:38:29 - INFO - Measured: 10:38:24
+22-Apr-25 10:38:34 - INFO - Measured: 10:38:29
+22-Apr-25 10:38:39 - INFO - Measured: 10:38:34
+22-Apr-25 10:38:44 - INFO - Measured: 10:38:39
+22-Apr-25 10:38:49 - INFO - Measured: 10:38:44
+22-Apr-25 10:38:54 - INFO - Measured: 10:38:49
+22-Apr-25 10:38:59 - INFO - Measured: 10:38:54
+22-Apr-25 10:39:04 - INFO - Measured: 10:38:59
+22-Apr-25 10:39:09 - INFO - Measured: 10:39:04
+22-Apr-25 10:39:14 - INFO - Measured: 10:39:09
+22-Apr-25 10:39:19 - INFO - Measured: 10:39:14
+22-Apr-25 10:39:24 - INFO - Measured: 10:39:19
+22-Apr-25 10:39:29 - INFO - Measured: 10:39:24
+22-Apr-25 10:39:34 - INFO - Measured: 10:39:29
+22-Apr-25 10:39:39 - INFO - Measured: 10:39:34
+22-Apr-25 10:39:44 - INFO - Measured: 10:39:39
+22-Apr-25 10:39:49 - INFO - Measured: 10:39:44
+22-Apr-25 10:39:54 - INFO - Measured: 10:39:49
+22-Apr-25 10:39:59 - INFO - Measured: 10:39:54
+22-Apr-25 10:40:04 - INFO - Measured: 10:39:59
+22-Apr-25 10:40:09 - INFO - Measured: 10:40:04
+22-Apr-25 10:40:14 - INFO - Measured: 10:40:09
+22-Apr-25 10:40:19 - INFO - Measured: 10:40:14
+22-Apr-25 10:40:24 - INFO - Measured: 10:40:19
+22-Apr-25 10:40:29 - INFO - Measured: 10:40:24
+22-Apr-25 10:40:34 - INFO - Measured: 10:40:29
+22-Apr-25 10:40:39 - INFO - Measured: 10:40:34
+22-Apr-25 10:40:44 - INFO - Measured: 10:40:39
+22-Apr-25 10:40:49 - INFO - Measured: 10:40:45
+22-Apr-25 10:40:54 - INFO - Measured: 10:40:49
+22-Apr-25 10:40:59 - INFO - Measured: 10:40:54
+22-Apr-25 10:41:04 - INFO - Measured: 10:40:59
+22-Apr-25 10:41:09 - INFO - Measured: 10:41:04
+22-Apr-25 10:41:14 - INFO - Measured: 10:41:09
+22-Apr-25 10:41:19 - INFO - Measured: 10:41:14
+22-Apr-25 10:41:24 - INFO - Measured: 10:41:19
+22-Apr-25 10:41:29 - INFO - Measured: 10:41:24
+22-Apr-25 10:41:34 - INFO - Measured: 10:41:29
+22-Apr-25 10:41:39 - INFO - Measured: 10:41:34
+22-Apr-25 10:41:44 - INFO - Measured: 10:41:39
+22-Apr-25 10:41:49 - INFO - Measured: 10:41:44
+22-Apr-25 10:41:54 - INFO - Measured: 10:41:49
+22-Apr-25 10:41:59 - INFO - Measured: 10:41:54
+22-Apr-25 10:42:04 - INFO - Measured: 10:41:59
+22-Apr-25 10:42:09 - INFO - Measured: 10:42:04
+22-Apr-25 10:42:14 - INFO - Measured: 10:42:09
+22-Apr-25 10:42:19 - INFO - Measured: 10:42:14
+22-Apr-25 10:42:24 - INFO - Measured: 10:42:19
+22-Apr-25 10:42:29 - INFO - Measured: 10:42:24
+22-Apr-25 10:42:34 - INFO - Measured: 10:42:29
+22-Apr-25 10:42:39 - INFO - Measured: 10:42:34
+22-Apr-25 10:42:44 - INFO - Measured: 10:42:39
+22-Apr-25 10:43:08 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 10:43:08 - INFO - Openning measurements session
+22-Apr-25 10:43:08 - INFO - VISA session open
+22-Apr-25 10:43:08 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 10:43:09 - INFO - Session and meter open
+22-Apr-25 10:43:09 - INFO - Configuring meter
+22-Apr-25 10:43:10 - INFO - Configuration complete
+22-Apr-25 10:43:10 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 10:43:10 - INFO - Measuring....
+22-Apr-25 10:43:15 - INFO - Measured: 10:43:10
+22-Apr-25 10:43:20 - INFO - Measured: 10:43:15
+22-Apr-25 10:43:25 - INFO - Measured: 10:43:20
+22-Apr-25 10:43:30 - INFO - Measured: 10:43:25
+22-Apr-25 10:43:35 - INFO - Measured: 10:43:30
+22-Apr-25 10:43:40 - INFO - Measured: 10:43:35
+22-Apr-25 10:43:45 - INFO - Measured: 10:43:40
+22-Apr-25 10:43:50 - INFO - Measured: 10:43:45
+22-Apr-25 10:43:55 - INFO - Measured: 10:43:50
+22-Apr-25 10:44:00 - INFO - Measured: 10:43:55
+22-Apr-25 10:44:05 - INFO - Measured: 10:44:00
+22-Apr-25 10:44:10 - INFO - Measured: 10:44:05
+22-Apr-25 10:44:15 - INFO - Measured: 10:44:10
+22-Apr-25 10:44:20 - INFO - Measured: 10:44:15
+22-Apr-25 10:44:25 - INFO - Measured: 10:44:20
+22-Apr-25 10:44:30 - INFO - Measured: 10:44:25
+22-Apr-25 10:44:35 - INFO - Measured: 10:44:30
+22-Apr-25 10:44:40 - INFO - Measured: 10:44:35
+22-Apr-25 10:44:45 - INFO - Measured: 10:44:40
+22-Apr-25 10:44:50 - INFO - Measured: 10:44:45
+22-Apr-25 10:44:55 - INFO - Measured: 10:44:50
+22-Apr-25 10:45:00 - INFO - Measured: 10:44:55
+22-Apr-25 10:45:05 - INFO - Measured: 10:45:00
+22-Apr-25 10:45:10 - INFO - Measured: 10:45:05
+22-Apr-25 10:45:15 - INFO - Measured: 10:45:10
+22-Apr-25 10:45:20 - INFO - Measured: 10:45:15
+22-Apr-25 10:45:25 - INFO - Measured: 10:45:20
+22-Apr-25 10:45:30 - INFO - Measured: 10:45:25
+22-Apr-25 10:45:35 - INFO - Measured: 10:45:30
+22-Apr-25 10:45:40 - INFO - Measured: 10:45:35
+22-Apr-25 10:45:45 - INFO - Measured: 10:45:40
+22-Apr-25 10:45:50 - INFO - Measured: 10:45:45
+22-Apr-25 10:45:55 - INFO - Measured: 10:45:50
+22-Apr-25 10:46:00 - INFO - Measured: 10:45:55
+22-Apr-25 10:46:05 - INFO - Measured: 10:46:00
+22-Apr-25 10:46:10 - INFO - Measured: 10:46:05
+22-Apr-25 10:46:15 - INFO - Measured: 10:46:10
+22-Apr-25 10:46:20 - INFO - Measured: 10:46:15
+22-Apr-25 10:46:25 - INFO - Measured: 10:46:20
+22-Apr-25 10:46:30 - INFO - Measured: 10:46:25
+22-Apr-25 10:46:35 - INFO - Measured: 10:46:30
+22-Apr-25 10:46:40 - INFO - Measured: 10:46:35
+22-Apr-25 10:46:45 - INFO - Measured: 10:46:40
+22-Apr-25 10:46:50 - INFO - Measured: 10:46:45
+22-Apr-25 10:46:55 - INFO - Measured: 10:46:50
+22-Apr-25 10:47:00 - INFO - Measured: 10:46:55
+22-Apr-25 10:47:05 - INFO - Measured: 10:47:00
+22-Apr-25 10:47:10 - INFO - Measured: 10:47:05
+22-Apr-25 10:47:15 - INFO - Measured: 10:47:10
+22-Apr-25 10:47:20 - INFO - Measured: 10:47:15
+22-Apr-25 10:47:25 - INFO - Measured: 10:47:20
+22-Apr-25 10:47:30 - INFO - Measured: 10:47:25
+22-Apr-25 10:47:35 - INFO - Measured: 10:47:30
+22-Apr-25 10:47:40 - INFO - Measured: 10:47:35
+22-Apr-25 10:47:45 - INFO - Measured: 10:47:40
+22-Apr-25 10:47:50 - INFO - Measured: 10:47:45
+22-Apr-25 10:47:55 - INFO - Measured: 10:47:50
+22-Apr-25 10:48:00 - INFO - Measured: 10:47:55
+22-Apr-25 10:48:05 - INFO - Measured: 10:48:00
+22-Apr-25 10:48:10 - INFO - Measured: 10:48:05
+22-Apr-25 10:48:15 - INFO - Measured: 10:48:10
+22-Apr-25 10:48:20 - INFO - Measured: 10:48:15
+22-Apr-25 10:48:25 - INFO - Measured: 10:48:20
+22-Apr-25 10:48:30 - INFO - Measured: 10:48:25
+22-Apr-25 10:48:35 - INFO - Measured: 10:48:30
+22-Apr-25 10:48:40 - INFO - Measured: 10:48:35
+22-Apr-25 10:48:45 - INFO - Measured: 10:48:40
+22-Apr-25 10:48:50 - INFO - Measured: 10:48:45
+22-Apr-25 10:48:55 - INFO - Measured: 10:48:50
+22-Apr-25 10:49:00 - INFO - Measured: 10:48:55
+22-Apr-25 10:49:05 - INFO - Measured: 10:49:00
+22-Apr-25 10:49:10 - INFO - Measured: 10:49:05
+22-Apr-25 10:49:15 - INFO - Measured: 10:49:10
+22-Apr-25 10:49:20 - INFO - Measured: 10:49:15
+22-Apr-25 10:49:25 - INFO - Measured: 10:49:20
+22-Apr-25 10:49:30 - INFO - Measured: 10:49:25
+22-Apr-25 10:49:35 - INFO - Measured: 10:49:30
+22-Apr-25 10:49:40 - INFO - Measured: 10:49:35
+22-Apr-25 10:49:45 - INFO - Measured: 10:49:40
+22-Apr-25 10:49:50 - INFO - Measured: 10:49:45
+22-Apr-25 10:49:55 - INFO - Measured: 10:49:50
+22-Apr-25 10:50:00 - INFO - Measured: 10:49:55
+22-Apr-25 10:50:05 - INFO - Measured: 10:50:00
+22-Apr-25 10:50:10 - INFO - Measured: 10:50:05
+22-Apr-25 10:50:15 - INFO - Measured: 10:50:10
+22-Apr-25 10:50:20 - INFO - Measured: 10:50:15
+22-Apr-25 10:50:25 - INFO - Measured: 10:50:20
+22-Apr-25 10:50:30 - INFO - Measured: 10:50:25
+22-Apr-25 10:50:35 - INFO - Measured: 10:50:30
+22-Apr-25 10:50:40 - INFO - Measured: 10:50:35
+22-Apr-25 10:50:45 - INFO - Measured: 10:50:40
+22-Apr-25 10:50:50 - INFO - Measured: 10:50:45
+22-Apr-25 10:50:55 - INFO - Measured: 10:50:50
+22-Apr-25 10:51:00 - INFO - Measured: 10:50:55
+22-Apr-25 10:51:05 - INFO - Measured: 10:51:00
+22-Apr-25 10:51:10 - INFO - Measured: 10:51:05
+22-Apr-25 10:51:15 - INFO - Measured: 10:51:10
+22-Apr-25 10:51:20 - INFO - Measured: 10:51:15
+22-Apr-25 10:51:25 - INFO - Measured: 10:51:20
+22-Apr-25 10:51:30 - INFO - Measured: 10:51:25
+22-Apr-25 10:51:35 - INFO - Measured: 10:51:30
+22-Apr-25 10:51:40 - INFO - Measured: 10:51:35
+22-Apr-25 10:51:45 - INFO - Measured: 10:51:40
+22-Apr-25 10:51:50 - INFO - Measured: 10:51:45
+22-Apr-25 10:51:55 - INFO - Measured: 10:51:50
+22-Apr-25 10:52:00 - INFO - Measured: 10:51:55
+22-Apr-25 10:52:05 - INFO - Measured: 10:52:00
+22-Apr-25 10:52:10 - INFO - Measured: 10:52:05
+22-Apr-25 10:52:15 - INFO - Measured: 10:52:10
+22-Apr-25 10:52:20 - INFO - Measured: 10:52:15
+22-Apr-25 10:52:25 - INFO - Measured: 10:52:20
+22-Apr-25 10:52:30 - INFO - Measured: 10:52:25
+22-Apr-25 10:52:35 - INFO - Measured: 10:52:30
+22-Apr-25 10:53:40 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 10:53:40 - INFO - Openning measurements session
+22-Apr-25 10:53:40 - INFO - VISA session open
+22-Apr-25 10:53:40 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 10:53:41 - INFO - Session and meter open
+22-Apr-25 10:53:41 - INFO - Configuring meter
+22-Apr-25 10:53:42 - INFO - Configuration complete
+22-Apr-25 10:53:42 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 10:53:42 - INFO - Measuring....
+22-Apr-25 10:53:47 - INFO - Measured: 10:53:42
+22-Apr-25 10:53:52 - INFO - Measured: 10:53:47
+22-Apr-25 10:53:57 - INFO - Measured: 10:53:52
+22-Apr-25 10:54:02 - INFO - Measured: 10:53:57
+22-Apr-25 10:54:07 - INFO - Measured: 10:54:02
+22-Apr-25 10:54:12 - INFO - Measured: 10:54:07
+22-Apr-25 10:54:17 - INFO - Measured: 10:54:12
+22-Apr-25 10:54:22 - INFO - Measured: 10:54:17
+22-Apr-25 10:54:27 - INFO - Measured: 10:54:22
+22-Apr-25 10:54:32 - INFO - Measured: 10:54:27
+22-Apr-25 10:54:37 - INFO - Measured: 10:54:32
+22-Apr-25 10:54:42 - INFO - Measured: 10:54:37
+22-Apr-25 10:54:47 - INFO - Measured: 10:54:42
+22-Apr-25 10:54:52 - INFO - Measured: 10:54:47
+22-Apr-25 10:54:57 - INFO - Measured: 10:54:52
+22-Apr-25 10:55:02 - INFO - Measured: 10:54:57
+22-Apr-25 10:55:07 - INFO - Measured: 10:55:02
+22-Apr-25 10:55:12 - INFO - Measured: 10:55:07
+22-Apr-25 10:55:17 - INFO - Measured: 10:55:12
+22-Apr-25 10:55:22 - INFO - Measured: 10:55:17
+22-Apr-25 10:55:27 - INFO - Measured: 10:55:22
+22-Apr-25 10:55:32 - INFO - Measured: 10:55:27
+22-Apr-25 10:55:37 - INFO - Measured: 10:55:32
+22-Apr-25 10:55:42 - INFO - Measured: 10:55:37
+22-Apr-25 10:55:47 - INFO - Measured: 10:55:42
+22-Apr-25 10:55:52 - INFO - Measured: 10:55:47
+22-Apr-25 10:55:57 - INFO - Measured: 10:55:52
+22-Apr-25 10:56:02 - INFO - Measured: 10:55:57
+22-Apr-25 10:56:07 - INFO - Measured: 10:56:02
+22-Apr-25 10:56:12 - INFO - Measured: 10:56:07
+22-Apr-25 10:56:17 - INFO - Measured: 10:56:12
+22-Apr-25 10:56:22 - INFO - Measured: 10:56:17
+22-Apr-25 10:56:27 - INFO - Measured: 10:56:22
+22-Apr-25 10:56:32 - INFO - Measured: 10:56:27
+22-Apr-25 10:56:37 - INFO - Measured: 10:56:32
+22-Apr-25 10:56:42 - INFO - Measured: 10:56:37
+22-Apr-25 10:56:47 - INFO - Measured: 10:56:42
+22-Apr-25 10:56:52 - INFO - Measured: 10:56:47
+22-Apr-25 10:56:57 - INFO - Measured: 10:56:52
+22-Apr-25 10:57:02 - INFO - Measured: 10:56:57
+22-Apr-25 10:57:07 - INFO - Measured: 10:57:02
+22-Apr-25 10:57:12 - INFO - Measured: 10:57:07
+22-Apr-25 10:57:17 - INFO - Measured: 10:57:12
+22-Apr-25 10:57:22 - INFO - Measured: 10:57:17
+22-Apr-25 10:57:27 - INFO - Measured: 10:57:22
+22-Apr-25 10:57:32 - INFO - Measured: 10:57:27
+22-Apr-25 10:57:37 - INFO - Measured: 10:57:32
+22-Apr-25 10:57:42 - INFO - Measured: 10:57:37
+22-Apr-25 10:57:47 - INFO - Measured: 10:57:42
+22-Apr-25 10:57:52 - INFO - Measured: 10:57:47
+22-Apr-25 10:57:57 - INFO - Measured: 10:57:52
+22-Apr-25 10:58:02 - INFO - Measured: 10:57:57
+22-Apr-25 10:58:07 - INFO - Measured: 10:58:02
+22-Apr-25 10:58:12 - INFO - Measured: 10:58:07
+22-Apr-25 10:58:17 - INFO - Measured: 10:58:12
+22-Apr-25 10:58:22 - INFO - Measured: 10:58:17
+22-Apr-25 10:58:27 - INFO - Measured: 10:58:22
+22-Apr-25 10:58:32 - INFO - Measured: 10:58:27
+22-Apr-25 10:58:37 - INFO - Measured: 10:58:32
+22-Apr-25 10:58:42 - INFO - Measured: 10:58:37
+22-Apr-25 10:58:47 - INFO - Measured: 10:58:42
+22-Apr-25 10:58:52 - INFO - Measured: 10:58:47
+22-Apr-25 10:58:57 - INFO - Measured: 10:58:52
+22-Apr-25 10:59:02 - INFO - Measured: 10:58:57
+22-Apr-25 10:59:07 - INFO - Measured: 10:59:02
+22-Apr-25 10:59:12 - INFO - Measured: 10:59:07
+22-Apr-25 11:00:22 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 11:00:22 - INFO - Openning measurements session
+22-Apr-25 11:00:22 - INFO - VISA session open
+22-Apr-25 11:00:22 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 11:00:22 - INFO - Session and meter open
+22-Apr-25 11:00:22 - INFO - Configuring meter
+22-Apr-25 11:00:24 - INFO - Configuration complete
+22-Apr-25 11:00:24 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 11:00:24 - INFO - Measuring....
+22-Apr-25 11:03:40 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 11:03:41 - INFO - Openning measurements session
+22-Apr-25 11:03:41 - INFO - VISA session open
+22-Apr-25 11:03:41 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 11:03:41 - INFO - Session and meter open
+22-Apr-25 11:03:41 - INFO - Configuring meter
+22-Apr-25 11:03:42 - INFO - Configuration complete
+22-Apr-25 11:03:42 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 11:03:42 - INFO - Measuring....
+22-Apr-25 11:03:47 - INFO - Measured: 11:03:43
+22-Apr-25 11:03:52 - INFO - Measured: 11:03:47
+22-Apr-25 11:03:57 - INFO - Measured: 11:03:52
+22-Apr-25 11:04:02 - INFO - Measured: 11:03:57
+22-Apr-25 11:04:07 - INFO - Measured: 11:04:02
+22-Apr-25 11:04:12 - INFO - Measured: 11:04:07
+22-Apr-25 11:04:17 - INFO - Measured: 11:04:12
+22-Apr-25 11:04:22 - INFO - Measured: 11:04:17
+22-Apr-25 11:04:27 - INFO - Measured: 11:04:22
+22-Apr-25 11:04:32 - INFO - Measured: 11:04:27
+22-Apr-25 11:04:37 - INFO - Measured: 11:04:32
+22-Apr-25 11:04:42 - INFO - Measured: 11:04:37
+22-Apr-25 11:04:47 - INFO - Measured: 11:04:42
+22-Apr-25 11:04:52 - INFO - Measured: 11:04:47
+22-Apr-25 11:04:57 - INFO - Measured: 11:04:52
+22-Apr-25 11:05:02 - INFO - Measured: 11:04:57
+22-Apr-25 11:05:07 - INFO - Measured: 11:05:02
+22-Apr-25 11:05:12 - INFO - Measured: 11:05:07
+22-Apr-25 11:05:17 - INFO - Measured: 11:05:12
+22-Apr-25 11:05:22 - INFO - Measured: 11:05:17
+22-Apr-25 11:05:27 - INFO - Measured: 11:05:22
+22-Apr-25 11:05:32 - INFO - Measured: 11:05:27
+22-Apr-25 11:05:37 - INFO - Measured: 11:05:32
+22-Apr-25 11:05:42 - INFO - Measured: 11:05:37
+22-Apr-25 11:05:47 - INFO - Measured: 11:05:42
+22-Apr-25 11:05:52 - INFO - Measured: 11:05:47
+22-Apr-25 11:05:57 - INFO - Measured: 11:05:52
+22-Apr-25 11:06:02 - INFO - Measured: 11:05:57
+22-Apr-25 11:06:07 - INFO - Measured: 11:06:02
+22-Apr-25 11:06:12 - INFO - Measured: 11:06:07
+22-Apr-25 11:06:17 - INFO - Measured: 11:06:12
+22-Apr-25 11:06:22 - INFO - Measured: 11:06:17
+22-Apr-25 11:06:27 - INFO - Measured: 11:06:22
+22-Apr-25 11:06:32 - INFO - Measured: 11:06:27
+22-Apr-25 11:06:37 - INFO - Measured: 11:06:32
+22-Apr-25 11:06:42 - INFO - Measured: 11:06:37
+22-Apr-25 11:06:47 - INFO - Measured: 11:06:42
+22-Apr-25 11:06:52 - INFO - Measured: 11:06:47
+22-Apr-25 11:06:57 - INFO - Measured: 11:06:52
+22-Apr-25 11:07:02 - INFO - Measured: 11:06:57
+22-Apr-25 11:07:07 - INFO - Measured: 11:07:02
+22-Apr-25 11:07:12 - INFO - Measured: 11:07:07
+22-Apr-25 11:07:17 - INFO - Measured: 11:07:12
+22-Apr-25 11:07:22 - INFO - Measured: 11:07:17
+22-Apr-25 11:07:27 - INFO - Measured: 11:07:22
+22-Apr-25 11:07:32 - INFO - Measured: 11:07:27
+22-Apr-25 11:07:37 - INFO - Measured: 11:07:32
+22-Apr-25 11:07:42 - INFO - Measured: 11:07:37
+22-Apr-25 11:07:47 - INFO - Measured: 11:07:42
+22-Apr-25 11:07:52 - INFO - Measured: 11:07:47
+22-Apr-25 11:07:57 - INFO - Measured: 11:07:52
+22-Apr-25 11:08:02 - INFO - Measured: 11:07:57
+22-Apr-25 11:08:07 - INFO - Measured: 11:08:02
+22-Apr-25 11:08:12 - INFO - Measured: 11:08:07
+22-Apr-25 11:08:17 - INFO - Measured: 11:08:12
+22-Apr-25 11:08:22 - INFO - Measured: 11:08:17
+22-Apr-25 11:08:27 - INFO - Measured: 11:08:22
+22-Apr-25 11:08:32 - INFO - Measured: 11:08:27
+22-Apr-25 11:08:37 - INFO - Measured: 11:08:32
+22-Apr-25 11:08:50 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 11:08:50 - INFO - Openning measurements session
+22-Apr-25 11:08:50 - INFO - VISA session open
+22-Apr-25 11:08:50 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 11:08:50 - INFO - Session and meter open
+22-Apr-25 11:08:50 - INFO - Configuring meter
+22-Apr-25 11:08:51 - INFO - Configuration complete
+22-Apr-25 11:08:51 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 11:08:51 - INFO - Measuring....
+22-Apr-25 11:08:57 - INFO - Measured: 11:08:52
+22-Apr-25 11:09:02 - INFO - Measured: 11:08:57
+22-Apr-25 11:09:07 - INFO - Measured: 11:09:02
+22-Apr-25 11:09:12 - INFO - Measured: 11:09:07
+22-Apr-25 11:09:17 - INFO - Measured: 11:09:12
+22-Apr-25 11:09:22 - INFO - Measured: 11:09:17
+22-Apr-25 11:09:27 - INFO - Measured: 11:09:22
+22-Apr-25 11:09:32 - INFO - Measured: 11:09:27
+22-Apr-25 11:09:37 - INFO - Measured: 11:09:32
+22-Apr-25 11:09:42 - INFO - Measured: 11:09:37
+22-Apr-25 11:09:47 - INFO - Measured: 11:09:42
+22-Apr-25 11:09:52 - INFO - Measured: 11:09:47
+22-Apr-25 11:09:57 - INFO - Measured: 11:09:52
+22-Apr-25 11:10:02 - INFO - Measured: 11:09:57
+22-Apr-25 11:10:07 - INFO - Measured: 11:10:02
+22-Apr-25 11:10:12 - INFO - Measured: 11:10:07
+22-Apr-25 11:10:17 - INFO - Measured: 11:10:12
+22-Apr-25 11:10:22 - INFO - Measured: 11:10:17
+22-Apr-25 11:10:27 - INFO - Measured: 11:10:22
+22-Apr-25 11:10:32 - INFO - Measured: 11:10:27
+22-Apr-25 11:10:37 - INFO - Measured: 11:10:32
+22-Apr-25 11:10:42 - INFO - Measured: 11:10:37
+22-Apr-25 11:10:47 - INFO - Measured: 11:10:42
+22-Apr-25 11:10:52 - INFO - Measured: 11:10:47
+22-Apr-25 11:10:57 - INFO - Measured: 11:10:52
+22-Apr-25 11:11:02 - INFO - Measured: 11:10:57
+22-Apr-25 11:11:07 - INFO - Measured: 11:11:02
+22-Apr-25 11:11:12 - INFO - Measured: 11:11:07
+22-Apr-25 11:11:17 - INFO - Measured: 11:11:12
+22-Apr-25 11:11:22 - INFO - Measured: 11:11:17
+22-Apr-25 11:11:27 - INFO - Measured: 11:11:22
+22-Apr-25 11:11:32 - INFO - Measured: 11:11:27
+22-Apr-25 11:11:37 - INFO - Measured: 11:11:32
+22-Apr-25 11:11:42 - INFO - Measured: 11:11:37
+22-Apr-25 11:11:47 - INFO - Measured: 11:11:42
+22-Apr-25 11:11:52 - INFO - Measured: 11:11:47
+22-Apr-25 11:11:57 - INFO - Measured: 11:11:52
+22-Apr-25 11:12:02 - INFO - Measured: 11:11:57
+22-Apr-25 11:12:07 - INFO - Measured: 11:12:02
+22-Apr-25 11:12:12 - INFO - Measured: 11:12:07
+22-Apr-25 11:12:17 - INFO - Measured: 11:12:12
+22-Apr-25 11:12:22 - INFO - Measured: 11:12:17
+22-Apr-25 11:12:27 - INFO - Measured: 11:12:22
+22-Apr-25 11:12:32 - INFO - Measured: 11:12:27
+22-Apr-25 11:12:37 - INFO - Measured: 11:12:32
+22-Apr-25 11:12:42 - INFO - Measured: 11:12:37
+22-Apr-25 11:12:47 - INFO - Measured: 11:12:42
+22-Apr-25 11:12:52 - INFO - Measured: 11:12:47
+22-Apr-25 11:12:57 - INFO - Measured: 11:12:52
+22-Apr-25 11:13:02 - INFO - Measured: 11:12:57
+22-Apr-25 11:13:07 - INFO - Measured: 11:13:02
+22-Apr-25 11:13:12 - INFO - Measured: 11:13:07
+22-Apr-25 11:13:17 - INFO - Measured: 11:13:12
+22-Apr-25 11:13:22 - INFO - Measured: 11:13:17
+22-Apr-25 11:13:27 - INFO - Measured: 11:13:22
+22-Apr-25 11:13:32 - INFO - Measured: 11:13:27
+22-Apr-25 11:13:37 - INFO - Measured: 11:13:32
+22-Apr-25 11:13:42 - INFO - Measured: 11:13:37
+22-Apr-25 11:13:47 - INFO - Measured: 11:13:42
+22-Apr-25 11:13:52 - INFO - Measured: 11:13:47
+22-Apr-25 11:13:57 - INFO - Measured: 11:13:52
+22-Apr-25 11:14:02 - INFO - Measured: 11:13:57
+22-Apr-25 11:14:07 - INFO - Measured: 11:14:02
+22-Apr-25 11:14:12 - INFO - Measured: 11:14:07
+22-Apr-25 11:14:17 - INFO - Measured: 11:14:12
+22-Apr-25 11:14:22 - INFO - Measured: 11:14:17
+22-Apr-25 11:14:27 - INFO - Measured: 11:14:22
+22-Apr-25 11:14:32 - INFO - Measured: 11:14:27
+22-Apr-25 11:14:37 - INFO - Measured: 11:14:32
+22-Apr-25 11:14:42 - INFO - Measured: 11:14:37
+22-Apr-25 11:14:47 - INFO - Measured: 11:14:42
+22-Apr-25 11:14:52 - INFO - Measured: 11:14:47
+22-Apr-25 11:14:57 - INFO - Measured: 11:14:52
+22-Apr-25 11:15:02 - INFO - Measured: 11:14:57
+22-Apr-25 11:15:07 - INFO - Measured: 11:15:02
+22-Apr-25 11:15:12 - INFO - Measured: 11:15:07
+22-Apr-25 11:15:17 - INFO - Measured: 11:15:12
+22-Apr-25 11:15:22 - INFO - Measured: 11:15:17
+22-Apr-25 11:15:27 - INFO - Measured: 11:15:22
+22-Apr-25 11:15:32 - INFO - Measured: 11:15:27
+22-Apr-25 11:15:37 - INFO - Measured: 11:15:32
+22-Apr-25 11:15:42 - INFO - Measured: 11:15:37
+22-Apr-25 11:15:47 - INFO - Measured: 11:15:42
+22-Apr-25 11:15:52 - INFO - Measured: 11:15:47
+22-Apr-25 11:15:57 - INFO - Measured: 11:15:52
+22-Apr-25 11:16:02 - INFO - Measured: 11:15:57
+22-Apr-25 11:16:07 - INFO - Measured: 11:16:02
+22-Apr-25 11:16:12 - INFO - Measured: 11:16:07
+22-Apr-25 11:16:17 - INFO - Measured: 11:16:12
+22-Apr-25 11:16:22 - INFO - Measured: 11:16:17
+22-Apr-25 11:16:27 - INFO - Measured: 11:16:22
+22-Apr-25 11:16:32 - INFO - Measured: 11:16:27
+22-Apr-25 11:16:37 - INFO - Measured: 11:16:32
+22-Apr-25 11:16:42 - INFO - Measured: 11:16:37
+22-Apr-25 11:16:47 - INFO - Measured: 11:16:42
+22-Apr-25 11:16:52 - INFO - Measured: 11:16:47
+22-Apr-25 11:16:57 - INFO - Measured: 11:16:52
+22-Apr-25 11:17:02 - INFO - Measured: 11:16:57
+22-Apr-25 11:17:07 - INFO - Measured: 11:17:02
+22-Apr-25 11:17:12 - INFO - Measured: 11:17:07
+22-Apr-25 11:17:17 - INFO - Measured: 11:17:12
+22-Apr-25 11:17:22 - INFO - Measured: 11:17:17
+22-Apr-25 11:17:27 - INFO - Measured: 11:17:22
+22-Apr-25 11:17:32 - INFO - Measured: 11:17:27
+22-Apr-25 11:17:37 - INFO - Measured: 11:17:32
+22-Apr-25 11:17:42 - INFO - Measured: 11:17:37
+22-Apr-25 11:17:47 - INFO - Measured: 11:17:42
+22-Apr-25 11:17:52 - INFO - Measured: 11:17:47
+22-Apr-25 11:17:57 - INFO - Measured: 11:17:52
+22-Apr-25 11:18:02 - INFO - Measured: 11:17:57
+22-Apr-25 11:18:07 - INFO - Measured: 11:18:02
+22-Apr-25 11:18:12 - INFO - Measured: 11:18:07
+22-Apr-25 11:18:17 - INFO - Measured: 11:18:12
+22-Apr-25 11:18:22 - INFO - Measured: 11:18:17
+22-Apr-25 11:18:27 - INFO - Measured: 11:18:22
+22-Apr-25 11:18:32 - INFO - Measured: 11:18:27
+22-Apr-25 11:18:37 - INFO - Measured: 11:18:32
+22-Apr-25 11:18:42 - INFO - Measured: 11:18:37
+22-Apr-25 11:18:47 - INFO - Measured: 11:18:42
+22-Apr-25 11:18:52 - INFO - Measured: 11:18:47
+22-Apr-25 11:18:57 - INFO - Measured: 11:18:52
+22-Apr-25 11:19:02 - INFO - Measured: 11:18:57
+22-Apr-25 11:19:07 - INFO - Measured: 11:19:02
+22-Apr-25 11:19:12 - INFO - Measured: 11:19:07
+22-Apr-25 11:19:17 - INFO - Measured: 11:19:12
+22-Apr-25 11:19:22 - INFO - Measured: 11:19:17
+22-Apr-25 11:19:27 - INFO - Measured: 11:19:22
+22-Apr-25 11:19:32 - INFO - Measured: 11:19:27
+22-Apr-25 11:19:37 - INFO - Measured: 11:19:32
+22-Apr-25 11:19:42 - INFO - Measured: 11:19:37
+22-Apr-25 11:19:47 - INFO - Measured: 11:19:42
+22-Apr-25 11:19:52 - INFO - Measured: 11:19:47
+22-Apr-25 11:19:57 - INFO - Measured: 11:19:52
+22-Apr-25 11:20:02 - INFO - Measured: 11:19:57
+22-Apr-25 11:22:44 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 11:22:44 - INFO - Openning measurements session
+22-Apr-25 11:22:44 - INFO - VISA session open
+22-Apr-25 11:22:44 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 11:22:44 - INFO - Session and meter open
+22-Apr-25 11:22:44 - INFO - Configuring meter
+22-Apr-25 11:22:45 - INFO - Configuration complete
+22-Apr-25 11:22:45 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 11:22:45 - INFO - Measuring....
+22-Apr-25 11:22:50 - INFO - Measured: 11:22:46
+22-Apr-25 11:22:55 - INFO - Measured: 11:22:50
+22-Apr-25 11:23:00 - INFO - Measured: 11:22:55
+22-Apr-25 11:23:05 - INFO - Measured: 11:23:00
+22-Apr-25 11:23:10 - INFO - Measured: 11:23:05
+22-Apr-25 11:23:15 - INFO - Measured: 11:23:10
+22-Apr-25 11:23:20 - INFO - Measured: 11:23:15
+22-Apr-25 11:23:25 - INFO - Measured: 11:23:20
+22-Apr-25 11:23:30 - INFO - Measured: 11:23:25
+22-Apr-25 11:23:35 - INFO - Measured: 11:23:30
+22-Apr-25 11:23:40 - INFO - Measured: 11:23:35
+22-Apr-25 11:23:45 - INFO - Measured: 11:23:40
+22-Apr-25 11:23:50 - INFO - Measured: 11:23:45
+22-Apr-25 11:23:55 - INFO - Measured: 11:23:50
+22-Apr-25 11:24:00 - INFO - Measured: 11:23:55
+22-Apr-25 11:24:05 - INFO - Measured: 11:24:00
+22-Apr-25 11:24:10 - INFO - Measured: 11:24:05
+22-Apr-25 11:24:15 - INFO - Measured: 11:24:10
+22-Apr-25 11:24:20 - INFO - Measured: 11:24:15
+22-Apr-25 11:24:25 - INFO - Measured: 11:24:20
+22-Apr-25 11:24:30 - INFO - Measured: 11:24:25
+22-Apr-25 11:24:35 - INFO - Measured: 11:24:30
+22-Apr-25 11:24:40 - INFO - Measured: 11:24:35
+22-Apr-25 11:24:45 - INFO - Measured: 11:24:40
+22-Apr-25 11:24:50 - INFO - Measured: 11:24:45
+22-Apr-25 11:24:55 - INFO - Measured: 11:24:50
+22-Apr-25 11:25:00 - INFO - Measured: 11:24:55
+22-Apr-25 11:25:05 - INFO - Measured: 11:25:00
+22-Apr-25 11:25:10 - INFO - Measured: 11:25:05
+22-Apr-25 11:25:53 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 11:25:53 - INFO - Openning measurements session
+22-Apr-25 11:25:53 - INFO - VISA session open
+22-Apr-25 11:25:53 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 11:25:53 - INFO - Session and meter open
+22-Apr-25 11:25:53 - INFO - Configuring meter
+22-Apr-25 11:25:55 - INFO - Configuration complete
+22-Apr-25 11:25:55 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 11:25:55 - INFO - Measuring....
+22-Apr-25 11:26:00 - INFO - Measured: 11:25:55
+22-Apr-25 11:26:05 - INFO - Measured: 11:26:00
+22-Apr-25 11:26:10 - INFO - Measured: 11:26:05
+22-Apr-25 11:26:15 - INFO - Measured: 11:26:10
+22-Apr-25 11:26:20 - INFO - Measured: 11:26:15
+22-Apr-25 11:26:25 - INFO - Measured: 11:26:20
+22-Apr-25 11:26:30 - INFO - Measured: 11:26:25
+22-Apr-25 11:26:35 - INFO - Measured: 11:26:30
+22-Apr-25 11:26:40 - INFO - Measured: 11:26:35
+22-Apr-25 11:26:45 - INFO - Measured: 11:26:40
+22-Apr-25 11:26:50 - INFO - Measured: 11:26:45
+22-Apr-25 11:26:55 - INFO - Measured: 11:26:50
+22-Apr-25 11:27:00 - INFO - Measured: 11:26:55
+22-Apr-25 11:27:05 - INFO - Measured: 11:27:00
+22-Apr-25 11:27:10 - INFO - Measured: 11:27:05
+22-Apr-25 11:27:15 - INFO - Measured: 11:27:10
+22-Apr-25 11:27:20 - INFO - Measured: 11:27:15
+22-Apr-25 11:27:25 - INFO - Measured: 11:27:20
+22-Apr-25 11:27:30 - INFO - Measured: 11:27:25
+22-Apr-25 11:27:35 - INFO - Measured: 11:27:30
+22-Apr-25 11:27:40 - INFO - Measured: 11:27:35
+22-Apr-25 11:27:45 - INFO - Measured: 11:27:40
+22-Apr-25 11:27:50 - INFO - Measured: 11:27:45
+22-Apr-25 11:27:55 - INFO - Measured: 11:27:50
+22-Apr-25 11:28:00 - INFO - Measured: 11:27:55
+22-Apr-25 11:28:05 - INFO - Measured: 11:28:00
+22-Apr-25 11:28:10 - INFO - Measured: 11:28:05
+22-Apr-25 11:28:15 - INFO - Measured: 11:28:10
+22-Apr-25 11:28:20 - INFO - Measured: 11:28:15
+22-Apr-25 11:28:25 - INFO - Measured: 11:28:20
+22-Apr-25 11:28:30 - INFO - Measured: 11:28:25
+22-Apr-25 11:28:35 - INFO - Measured: 11:28:30
+22-Apr-25 11:28:40 - INFO - Measured: 11:28:35
+22-Apr-25 11:28:45 - INFO - Measured: 11:28:40
+22-Apr-25 11:28:50 - INFO - Measured: 11:28:45
+22-Apr-25 11:28:55 - INFO - Measured: 11:28:50
+22-Apr-25 11:29:00 - INFO - Measured: 11:28:55
+22-Apr-25 11:29:42 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 11:29:42 - INFO - Openning measurements session
+22-Apr-25 11:29:42 - INFO - VISA session open
+22-Apr-25 11:29:42 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 11:29:42 - INFO - Session and meter open
+22-Apr-25 11:29:42 - INFO - Configuring meter
+22-Apr-25 11:29:43 - INFO - Configuration complete
+22-Apr-25 11:29:43 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 11:29:43 - INFO - Measuring....
+22-Apr-25 11:29:48 - INFO - Measured: 11:29:44
+22-Apr-25 11:29:53 - INFO - Measured: 11:29:48
+22-Apr-25 11:29:58 - INFO - Measured: 11:29:53
+22-Apr-25 11:30:03 - INFO - Measured: 11:29:58
+22-Apr-25 11:30:08 - INFO - Measured: 11:30:03
+22-Apr-25 11:30:13 - INFO - Measured: 11:30:08
+22-Apr-25 11:30:18 - INFO - Measured: 11:30:13
+22-Apr-25 11:30:23 - INFO - Measured: 11:30:18
+22-Apr-25 11:30:28 - INFO - Measured: 11:30:23
+22-Apr-25 11:30:33 - INFO - Measured: 11:30:28
+22-Apr-25 11:30:38 - INFO - Measured: 11:30:33
+22-Apr-25 11:30:43 - INFO - Measured: 11:30:38
+22-Apr-25 11:30:48 - INFO - Measured: 11:30:43
+22-Apr-25 11:30:53 - INFO - Measured: 11:30:48
+22-Apr-25 11:30:58 - INFO - Measured: 11:30:53
+22-Apr-25 11:31:42 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 11:31:42 - INFO - Openning measurements session
+22-Apr-25 11:31:42 - INFO - VISA session open
+22-Apr-25 11:31:42 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 11:31:42 - INFO - Session and meter open
+22-Apr-25 11:31:42 - INFO - Configuring meter
+22-Apr-25 11:31:44 - INFO - Configuration complete
+22-Apr-25 11:31:44 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 11:31:44 - INFO - Measuring....
+22-Apr-25 11:31:49 - INFO - Measured: 11:31:44
+22-Apr-25 11:31:54 - INFO - Measured: 11:31:49
+22-Apr-25 11:31:59 - INFO - Measured: 11:31:54
+22-Apr-25 11:32:04 - INFO - Measured: 11:31:59
+22-Apr-25 11:32:09 - INFO - Measured: 11:32:04
+22-Apr-25 11:32:14 - INFO - Measured: 11:32:09
+22-Apr-25 11:32:19 - INFO - Measured: 11:32:14
+22-Apr-25 11:32:24 - INFO - Measured: 11:32:19
+22-Apr-25 11:32:29 - INFO - Measured: 11:32:24
+22-Apr-25 11:32:34 - INFO - Measured: 11:32:29
+22-Apr-25 11:32:39 - INFO - Measured: 11:32:34
+22-Apr-25 11:32:44 - INFO - Measured: 11:32:39
+22-Apr-25 11:32:49 - INFO - Measured: 11:32:44
+22-Apr-25 11:32:54 - INFO - Measured: 11:32:49
+22-Apr-25 11:32:59 - INFO - Measured: 11:32:54
+22-Apr-25 11:33:04 - INFO - Measured: 11:32:59
+22-Apr-25 11:33:09 - INFO - Measured: 11:33:04
+22-Apr-25 11:33:14 - INFO - Measured: 11:33:09
+22-Apr-25 11:33:19 - INFO - Measured: 11:33:14
+22-Apr-25 11:33:24 - INFO - Measured: 11:33:19
+22-Apr-25 11:33:29 - INFO - Measured: 11:33:24
+22-Apr-25 11:33:34 - INFO - Measured: 11:33:29
+22-Apr-25 11:33:39 - INFO - Measured: 11:33:34
+22-Apr-25 11:33:44 - INFO - Measured: 11:33:39
+22-Apr-25 11:33:49 - INFO - Measured: 11:33:44
+22-Apr-25 11:33:54 - INFO - Measured: 11:33:49
+22-Apr-25 11:33:59 - INFO - Measured: 11:33:54
+22-Apr-25 11:34:04 - INFO - Measured: 11:33:59
+22-Apr-25 11:34:09 - INFO - Measured: 11:34:04
+22-Apr-25 11:34:14 - INFO - Measured: 11:34:09
+22-Apr-25 11:34:19 - INFO - Measured: 11:34:14
+22-Apr-25 11:34:24 - INFO - Measured: 11:34:19
+22-Apr-25 11:34:29 - INFO - Measured: 11:34:24
+22-Apr-25 11:35:18 - INFO - Openning measurements session
+22-Apr-25 11:35:18 - INFO - VISA session open
+22-Apr-25 11:35:18 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 11:35:23 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 11:35:23 - INFO - Openning measurements session
+22-Apr-25 11:35:23 - INFO - VISA session open
+22-Apr-25 11:35:23 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 11:35:24 - INFO - Session and meter open
+22-Apr-25 11:35:24 - INFO - Configuring meter
+22-Apr-25 11:35:25 - INFO - Configuration complete
+22-Apr-25 11:35:25 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 11:35:25 - INFO - Measuring....
+22-Apr-25 11:35:30 - INFO - Measured: 11:35:25
+22-Apr-25 11:35:35 - INFO - Measured: 11:35:30
+22-Apr-25 11:35:40 - INFO - Measured: 11:35:35
+22-Apr-25 11:35:45 - INFO - Measured: 11:35:40
+22-Apr-25 11:35:50 - INFO - Measured: 11:35:45
+22-Apr-25 11:35:55 - INFO - Measured: 11:35:50
+22-Apr-25 11:36:00 - INFO - Measured: 11:35:55
+22-Apr-25 11:36:05 - INFO - Measured: 11:36:00
+22-Apr-25 11:36:10 - INFO - Measured: 11:36:05
+22-Apr-25 11:36:15 - INFO - Measured: 11:36:10
+22-Apr-25 11:36:20 - INFO - Measured: 11:36:15
+22-Apr-25 11:36:25 - INFO - Measured: 11:36:20
+22-Apr-25 11:36:30 - INFO - Measured: 11:36:25
+22-Apr-25 11:36:35 - INFO - Measured: 11:36:30
+22-Apr-25 11:36:40 - INFO - Measured: 11:36:35
+22-Apr-25 11:36:45 - INFO - Measured: 11:36:40
+22-Apr-25 11:36:50 - INFO - Measured: 11:36:45
+22-Apr-25 11:36:55 - INFO - Measured: 11:36:50
+22-Apr-25 11:37:00 - INFO - Measured: 11:36:55
+22-Apr-25 11:37:05 - INFO - Measured: 11:37:00
+22-Apr-25 11:37:10 - INFO - Measured: 11:37:05
+22-Apr-25 11:37:15 - INFO - Measured: 11:37:10
+22-Apr-25 11:37:20 - INFO - Measured: 11:37:15
+22-Apr-25 11:37:25 - INFO - Measured: 11:37:20
+22-Apr-25 11:37:30 - INFO - Measured: 11:37:25
+22-Apr-25 11:37:35 - INFO - Measured: 11:37:30
+22-Apr-25 11:37:40 - INFO - Measured: 11:37:35
+22-Apr-25 11:37:45 - INFO - Measured: 11:37:40
+22-Apr-25 11:37:50 - INFO - Measured: 11:37:45
+22-Apr-25 11:37:55 - INFO - Measured: 11:37:50
+22-Apr-25 11:38:00 - INFO - Measured: 11:37:55
+22-Apr-25 11:38:05 - INFO - Measured: 11:38:00
+22-Apr-25 11:38:10 - INFO - Measured: 11:38:05
+22-Apr-25 11:38:15 - INFO - Measured: 11:38:10
+22-Apr-25 11:38:20 - INFO - Measured: 11:38:15
+22-Apr-25 11:38:25 - INFO - Measured: 11:38:20
+22-Apr-25 11:38:30 - INFO - Measured: 11:38:25
+22-Apr-25 11:38:35 - INFO - Measured: 11:38:30
+22-Apr-25 11:38:40 - INFO - Measured: 11:38:35
+22-Apr-25 11:38:45 - INFO - Measured: 11:38:40
+22-Apr-25 11:38:50 - INFO - Measured: 11:38:45
+22-Apr-25 11:38:55 - INFO - Measured: 11:38:50
+22-Apr-25 11:39:00 - INFO - Measured: 11:38:55
+22-Apr-25 11:39:05 - INFO - Measured: 11:39:00
+22-Apr-25 11:39:10 - INFO - Measured: 11:39:05
+22-Apr-25 11:39:15 - INFO - Measured: 11:39:10
+22-Apr-25 11:39:20 - INFO - Measured: 11:39:15
+22-Apr-25 11:39:25 - INFO - Measured: 11:39:20
+22-Apr-25 11:39:30 - INFO - Measured: 11:39:25
+22-Apr-25 11:39:35 - INFO - Measured: 11:39:30
+22-Apr-25 11:39:40 - INFO - Measured: 11:39:35
+22-Apr-25 11:39:45 - INFO - Measured: 11:39:40
+22-Apr-25 11:39:50 - INFO - Measured: 11:39:45
+22-Apr-25 11:39:55 - INFO - Measured: 11:39:50
+22-Apr-25 11:40:00 - INFO - Measured: 11:39:55
+22-Apr-25 11:40:05 - INFO - Measured: 11:40:00
+22-Apr-25 11:40:10 - INFO - Measured: 11:40:05
+22-Apr-25 11:40:15 - INFO - Measured: 11:40:10
+22-Apr-25 11:40:20 - INFO - Measured: 11:40:15
+22-Apr-25 11:40:25 - INFO - Measured: 11:40:20
+22-Apr-25 11:40:30 - INFO - Measured: 11:40:25
+22-Apr-25 11:40:35 - INFO - Measured: 11:40:30
+22-Apr-25 11:40:40 - INFO - Measured: 11:40:35
+22-Apr-25 11:40:45 - INFO - Measured: 11:40:40
+22-Apr-25 11:40:50 - INFO - Measured: 11:40:45
+22-Apr-25 11:40:55 - INFO - Measured: 11:40:50
+22-Apr-25 11:41:00 - INFO - Measured: 11:40:55
+22-Apr-25 11:41:05 - INFO - Measured: 11:41:00
+22-Apr-25 11:41:10 - INFO - Measured: 11:41:05
+22-Apr-25 11:41:26 - INFO - Dash is running on http://127.0.0.1:8050/
+
+22-Apr-25 11:41:27 - INFO - Openning measurements session
+22-Apr-25 11:41:27 - INFO - VISA session open
+22-Apr-25 11:41:27 - INFO - Openning device with address:TCPIP::169.254.9.72::INSTR
+22-Apr-25 11:41:27 - INFO - Session and meter open
+22-Apr-25 11:41:27 - INFO - Configuring meter
+22-Apr-25 11:41:28 - INFO - Configuration complete
+22-Apr-25 11:41:28 - INFO - saving resutls in meteo_2025_112.txt
+22-Apr-25 11:41:28 - INFO - Measuring....
+22-Apr-25 11:41:33 - INFO - Measured: 11:41:28
+22-Apr-25 11:41:38 - INFO - Measured: 11:41:33
+22-Apr-25 11:41:43 - INFO - Measured: 11:41:38
+22-Apr-25 11:41:48 - INFO - Measured: 11:41:43
