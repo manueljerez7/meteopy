@@ -146,7 +146,9 @@ def daq_control():
     #Iniciamos operación normal
     while same_day_condition:
         valores = []
-        timestamp = datetime.now().strftime("%H:%M:%S")
+        now = datetime.now()
+        seconds_rounded = (now.second // 5) * 5
+        timestamp = now.replace(second=seconds_rounded, microsecond=0).strftime("%H:%M:%S")        
 
         for chan in range(1, numberChannels):
             inst_handler.write("DATA:REMOVE? 1")

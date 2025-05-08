@@ -27,13 +27,28 @@ def load_device_names():
     else:
         return [f"Canal_{i}" for i in range(17)]
 
+VALORES_POR_DEFECTO = [1.0] * 17
+
 def load_multiplicadores():
     if os.path.exists(CONFIG_FILE):
-        with open(CONFIG_FILE, "r") as f:
-            valores = f.readlines()
-        return [float(v.strip()) for v in valores]
+        try:
+            with open(CONFIG_FILE, "r") as f:
+                valores = f.readlines()
+            multiplicadores = [float(v.strip()) for v in valores]
+            if len(multiplicadores) != len(VALORES_POR_DEFECTO):
+                raise ValueError("Número incorrecto de multiplicadores")
+            return multiplicadores
+        except Exception:
+            # Si hay error, sobrescribe con los valores por defecto
+            with open(CONFIG_FILE, "w") as f:
+                for v in VALORES_POR_DEFECTO:
+                    f.write(f"{v}\n")
+            return VALORES_POR_DEFECTO
     else:
-        return [1.0] * 17
+        with open(CONFIG_FILE, "w") as f:
+            for v in VALORES_POR_DEFECTO:
+                f.write(f"{v}\n")
+        return VALORES_POR_DEFECTO
 
 def save_multiplicadores(multiplicadores):
     with open(CONFIG_FILE, "w") as f:
@@ -58,7 +73,9 @@ def read_datalogger():
         valores = [random.uniform(0, 1) for _ in range(17)]
         valores_multiplicados = [valores[i] * multiplicadores[i] for i in range(17)]
         valores_multiplicados = [round(val, 3) for val in valores_multiplicados]
-        timestamp = time.strftime("%H:%M:%S")
+        now = datetime.now()
+        seconds_rounded = (now.second // 5) * 5
+        timestamp = now.replace(second=seconds_rounded, microsecond=0).strftime("%H:%M:%S")   
         
         with open(DATA_FILE, "a") as f:
             f.write(timestamp + "\t" + "\t".join(map(str, valores_multiplicados)) + "\n")
@@ -271,6 +288,6 @@ dash_thread.start()
 
 if __name__ == "__main__":
     
-    read_datalogger()
+    #read_datalogger()
     
-    #daq_control.daq_control()
+    daq_control.daq_control()
