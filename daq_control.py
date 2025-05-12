@@ -3,13 +3,13 @@ import pyvisa  # for scpi
 import time  # for sleep
 import logging
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 import os
 # INT_ID = "USB0::4883::32802::M00450923::0::INSTR"
 
 DELAY = 0.1
-numero_dia = datetime.today().strftime('%j')
-año = datetime.today().strftime('%Y')
+numero_dia = datetime.now(timezone.utc).strftime('%j')
+año = datetime.now(timezone.utc).strftime('%Y')
 DATA_FILE = f"meteo_{año}_{numero_dia}.txt"
 CONFIG_FILE = "config.txt"
 DEVICES_FILE = "devices.txt"
@@ -131,7 +131,7 @@ def daq_control():
 
     # same datafile if True
     same_day_condition = True
-    numero_dia = datetime.today().strftime('%j')
+    numero_dia = datetime.now(timezone.utc).strftime('%j')
     logging.info('saving resutls in {}'.format(DATA_FILE))
     logging.info('Measuring....')
 
@@ -146,7 +146,7 @@ def daq_control():
     #Iniciamos operación normal
     while same_day_condition:
         valores = []
-        now = datetime.now()
+        now = datetime.now(timezone.utc)
         seconds_rounded = (now.second // 5) * 5
         timestamp = now.replace(second=seconds_rounded, microsecond=0).strftime("%H:%M:%S")        
 
@@ -182,7 +182,7 @@ def daq_control():
             txtfile.write(linea)
 
 
-        if datetime.today().strftime('%j') != numero_dia:
+        if datetime.now(timezone.utc).strftime('%j') != numero_dia:
             same_day_condition = False
 
     close_session(visa_handler=visa_handler, inst_handler=inst_handler)

@@ -7,14 +7,14 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import os
 import random
-from datetime import datetime
+from datetime import datetime, timezone
 import daq_control
 
 # Versión que utiliza dash en 2º plano y el datalogger en 1º plano
 
 # Archivos de almacenamiento
-numero_dia = datetime.today().strftime('%j')
-año = datetime.today().strftime('%Y')
+numero_dia = datetime.now(timezone.utc).strftime('%j')
+año = datetime.now(timezone.utc).strftime('%Y')
 DATA_FILE = f"meteo_{año}_{numero_dia}.txt"
 CONFIG_FILE = "config.txt"
 DEVICES_FILE = "devices.txt"
@@ -67,13 +67,13 @@ units_multiplicadores = [txt_multiplicadores] * 12 + txt_multiplicadores_list
 
 def read_datalogger():
     same_day_condition = True
-    numero_dia = datetime.today().strftime('%j')
+    numero_dia = datetime.now(timezone.utc).strftime('%j')
 
     while same_day_condition:
         valores = [random.uniform(0, 1) for _ in range(17)]
         valores_multiplicados = [valores[i] * multiplicadores[i] for i in range(17)]
         valores_multiplicados = [round(val, 3) for val in valores_multiplicados]
-        now = datetime.now()
+        now = datetime.now(timezone.utc)
         seconds_rounded = (now.second // 5) * 5
         timestamp = now.replace(second=seconds_rounded, microsecond=0).strftime("%H:%M:%S")   
         
@@ -83,7 +83,7 @@ def read_datalogger():
     
         time.sleep(5)
         
-        if datetime.today().strftime('%j') != numero_dia:
+        if datetime.now(timezone.utc).strftime('%j') != numero_dia:
             same_day_condition = False
 
 def run_dash_server():
