@@ -36,6 +36,7 @@ def open_session():
     try:
         visa_handler = pyvisa.ResourceManager("@py")
         # rm = pyvisa.ResourceManager()
+        logging.info("El código del programa se encuentra en: https://github.com/manueljerez7/meteopy")
         logging.info("Openning measurements session")
         logging.info("VISA session open")
 
@@ -161,7 +162,7 @@ def daq_control():
                 points=int(inst_handler.read())
 
         multiplicadores = load_multiplicadores()
-        orden_indices = [116,114,115,101,102,103,104,105,111,117,112,113,108,109,110,107,106]
+        orden_indices = [116,114,115,101,102,103,104,105,111,117,112,113,108,107,106,110,109]
         orden_python = [i - 101 for i in orden_indices]
         # Reordenar los valores según el orden especificado
         valores = [valores[i] for i in orden_python]

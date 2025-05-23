@@ -61,7 +61,7 @@ dispositivo_nombres = load_device_names()
 txt_multiplicadores = "(W/m^2)/V"
 txt_multiplicadores_list = ["(ºC)/V", "(m/s)/V", "(º)/V", "(bar)/V", "(%)/V"]
 
-txt_units = ["W/m^2"] * 12 + ["ºC", "%", "bar", "m/s", "º"]
+txt_units = ["W/m^2"] * 12 + ["ºC", "m/s", "º", "bar" "%"]
 
 units_multiplicadores = [txt_multiplicadores] * 12 + txt_multiplicadores_list
 
